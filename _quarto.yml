@@ -1,0 +1,17 @@
+project:
+  type: website
+  resources:
+    - game.html
+
+website:
+  title: "Lab5Site"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
